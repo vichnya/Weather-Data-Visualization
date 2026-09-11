@@ -26,6 +26,7 @@
 * Pandas
 * NumPy
 * Matplotlib
+* python-dotenv
 
 ## Структура проекта
 
@@ -48,6 +49,8 @@ Weather-Data-Visualization/
 OPENWEATHER_API_KEY=your_api_key_here
 ```
 
+Файл `.env` не должен загружаться в репозиторий.
+
 ## Запуск
 
 Установить зависимости:
@@ -56,10 +59,13 @@ OPENWEATHER_API_KEY=your_api_key_here
 pip install -r requirements.txt
 ```
 
-Установить переменную окружения `OPENWEATHER_API_KEY`, затем запустить:
+Запустить программу:
 
 ```bash
 python main.py
 ```
 
 Программа получает погодные данные через API, рассчитывает среднюю температуру за каждый день и отображает результаты в виде графиков.
+
+```
+```
